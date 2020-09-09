@@ -1,0 +1,17 @@
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #00FF00;
+}
+
+.bg-green {
+  background-color: #045b06;
+}
+
+#logo {
+  min-width: 40%;
+  max-width: 15vw;
+  height: auto;
+}
