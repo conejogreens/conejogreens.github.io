@@ -28,6 +28,7 @@ noscript {
   direction: rtl;
   unicode-bidi: bidi-override;
 }
+
 #panorama {
   background-image: url(../img/panorama.jpg);
   background-size: cover;
