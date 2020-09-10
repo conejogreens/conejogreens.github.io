@@ -29,7 +29,7 @@ noscript {
   unicode-bidi: bidi-override;
 }
 #panorama {
-  background-image: url(../img/panorama2.jpg);
+  background-image: url(../img/panorama.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
