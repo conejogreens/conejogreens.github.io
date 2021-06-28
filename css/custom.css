@@ -34,3 +34,9 @@ noscript {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.join a {
+  background-color: #0a3d0c;
+  padding: 8px 32px;
+  font-weight: bold;
+}
