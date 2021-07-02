@@ -4,7 +4,10 @@
 	  <meta charset="utf-8">
 	  <title>2020 Election Data Breakdown</title>
 	  <style>
-		  a { color: green; }
+		a { color: green; }
+		.bold { font-weight: bold; }
+		tr { background-color: #f5f5f5; }
+		tr:nth-child(even) { background-color: #cccccc; }
 	  </style>
   </head>
   <body>
@@ -19,20 +22,90 @@
       <h3>Turnout</h3>
       <table border="0" cellpadding="5" cellspacing="1">
         <tr>
-          <td>Registered Voters:</td>
+          <td class="bold">Registered Voters:</td>
           <td>85876</td>
       </tr>
       <tr>
-          <td>Ballots Cast:</td>
+          <td class="bold">Ballots Cast:</td>
           <td>77819</td>
       </tr>
       <tr>
-          <td>% Voted</td>
+          <td class="bold">Percentage</td>
           <td>90.6%</td>
         </tr>
       </table>
 	    
       <a href="turnout.html">Click here to see a breakdown by precinct</a>
     </div>
+	  
+	<div>
+		<h3>Presidential Election</h3>
+		
+		<table border="0" cellpadding="5" cellspacing="1">
+			<tr>
+				<th>Candidate</th>
+				<th>Votes Recieved</th>
+				<th>Vote Percentage</th>
+			</tr>
+			<tr>
+				<td>Joe Biden (<span title="Democratic Party">D</span>)</td>
+				<td>43330</td>
+				<td>56.8%</td>
+			<tr>
+			<tr>
+				<td>Donald Trump (<span title="Republican Party">R</span>)</td>
+				<td>31455</td>
+				<td>41.2%</td>
+			</tr>
+			<tr>
+				<td>Jo Jorgensen (<span title="Libertarian Party">L</span>)</td>
+				<td>959</td>
+				<td>1.3%</td>
+			</tr>
+			<tr>
+				<td>Howie Hawkins (<span title="Green Party">G</span>)</td>
+				<td>257</td>
+				<td>0.3%</td>
+			</tr>
+			<tr>
+				<td>Roque De La Fuente (<span title="American Independent Party">AI<span title="Party">)</td>
+				<td>201</td>
+				<td>0.3%</td>
+			</tr>
+			<tr>
+				<td>Gloria La Riva (<span title="Peace & Freedom Party">P&F</span>)</td>
+				<td>106</td>
+				<td>0.1%</td>
+			</tr>
+			<tr>
+				<td>Brian Carroll (<span title="American Solidarity Party">AS</span>)</td>
+				<td>16</td>
+				<td>0.0%</td>
+			</tr>
+			<tr>
+				<td>Jesse Ventura (<span title="Independant">I</span>)</td>
+				<td>3</td>
+				<td>0.0%</td>
+			</tr>
+			<tr>
+				<td>Mark Charles (<span title="Independant">I</span>)</td>
+				<td>1</td>
+				<td>0.0%</td>
+			</tr>
+			<tr>
+				<td>Joseph Kishore (<span title="Socialist Equality Party">SE</span>)</td>
+				<td>1</td>
+				<td>0.0%</td>
+			</tr>
+			<tr>
+				<td>Brock Pierce (<span title="Independant">I</span>)</td>
+				<td>0</td>
+				<td>0.0%</td>
+			</tr>
+		</table>
+			
+		 <a href="president.html">Click here to see a breakdown by precinct</a>
+	</div>
+
   </body>
 </html>
